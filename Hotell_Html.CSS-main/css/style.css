@@ -161,3 +161,14 @@ footer {
 .clear {
     clear: both;
 }
+/* about */
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%
+}
+#about-info .info-right {
+    float:right;
+    width: 50%;
+    min-height: 100%;
+}
