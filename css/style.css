@@ -3,19 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-/* reset browser css */
-/*
-*{
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 /*main*/
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
+    /* min-height: 100vh;
+    display: grid;
+   */
+
 }
 a {
     color: #333;
@@ -164,6 +162,9 @@ footer {
     clear: both;
 }
 /* about */
+/* #about-info {
+    height: auto;
+} */
 #about-info .info-left {
     float: left;
     width: 50%;
